@@ -42,7 +42,7 @@ const People = () => {
             people.map((person, index) => (
               <Box>
                 <Card height={"10"} textAlign={"center"}>
-                  <Link to={"/star-wars/people/" + getID(people.url)}>{person.name}</Link>
+                  <Link to={"/star-wars/people/" + getID(person.url)}>{person.name}</Link>
                 </Card>
               </Box>
               // <div/> // TODO: replace this
