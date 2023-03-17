@@ -1,10 +1,7 @@
 import React from "react"
-import { Link, Outlet } from "react-router-dom"
-import people from "../assets/people.jpeg"
-import planets from "../assets/planets.jpeg"
-import movies from "../assets/movies.jpeg"
+import { Link } from "react-router-dom"
 import { Container } from "@chakra-ui/react"
-import { Card, Image, SimpleGrid, Text, CardBody } from "@chakra-ui/react"
+import { Card, SimpleGrid } from "@chakra-ui/react"
 
 const Home = () => {
   return (
