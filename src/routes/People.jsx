@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import peopleThumbnail from "../assets/people.jpeg";
 import BackButton from "../components/BackButton";
-import { Card, SimpleGrid, CardBody, Text,Box, Image, HStack, Container, Heading } from "@chakra-ui/react";
+import { Card, SimpleGrid, Text,Box, Image, HStack, Container, Heading } from "@chakra-ui/react";
 
 const People = () => {
   const [people, setPeople] = useState([]);
