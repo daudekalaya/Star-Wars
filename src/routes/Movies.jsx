@@ -44,7 +44,7 @@ const Movies = () => {
             movies.map((movie, index) => (
               <Box>
                 <Card height={"10"} textAlign={"center"}>
-                  <Link to={"/star-wars/movies/" + (index + 1)}>{movie.title}</Link>
+                  <Link to={"/star-wars/movies/" + getID(movie.url)}>{movie.title}</Link>
                 </Card>
               </Box>
               // <div/> // TODO: replace this

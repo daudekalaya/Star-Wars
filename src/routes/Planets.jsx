@@ -44,7 +44,7 @@ const Planets = () => {
             planets.map((planet, index) => (
               <Box>
                 <Card height={"10"} textAlign={"center"}>
-                  <Link to={"/star-wars/planets/" + (index + 1)}>{planet.name}</Link>
+                  <Link to={"/star-wars/planets/" + getID(planet.url)}>{planet.name}</Link>
                 </Card>
               </Box>
               // <div/> // TODO: replace this
